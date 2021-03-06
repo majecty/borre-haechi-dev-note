@@ -1,0 +1,6 @@
+[book]
+authors = ["ParkJuhyeong"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Borre 개발노트"
