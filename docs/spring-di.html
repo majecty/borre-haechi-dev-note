@@ -217,6 +217,16 @@ XML을 사용하거나, Java annotation, 혹은 Java 코드를 사용해서 Bean
 <p>한 클래스에 <code>@Service</code>, <code>@Controller</code>, <code>@Repository</code>를 사용하면 그
 클래스가 스프링 디펜던시 인젝션으로 사용되는 것 뿐만 아니라 더 많은
 의미 혹은 기능을 가지게 된다. 상황에 맞는 어노테이션을 사용하자.</p>
+<h3><a class="header" href="#configuration" id="configuration">@Configuration</a></h3>
+<p>우리가 직접 정의하지 않은 class를 주입하고 싶을 때 <code>@Configuration</code>을
+사용한다. @Configuration을 사용하여 Bean을 정의하는 방법을 Java-based
+Configuration<sup class="footnote-reference"><a href="#java-based-configuration">2</a></sup>이라고 부른다.</p>
+<div class="footnote-definition" id="java-based-configuration"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-java">https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-java</a></p>
+</div>
+<p>Configuration용 클래스 위에 @Configuration 어노테이션을 붙이고, bean을
+제공할 메쏘드들 위에 @Bean을 붙인다. 그러면 @Bean이 붙은 메쏘드의 리턴
+값이 bean에 등록된다.</p>
 <h2><a class="header" href="#bean-주입받기" id="bean-주입받기">Bean 주입받기</a></h2>
 <h3><a class="header" href="#필드에-autowired를-달기" id="필드에-autowired를-달기">필드에 @Autowired를 달기</a></h3>
 <p>IoC Container에 의해서 생성되는 객체가 @Autowired 어노테이션을 가지고
@@ -227,14 +237,13 @@ XML을 사용하거나, Java annotation, 혹은 Java 코드를 사용해서 Bean
 주입받을 수 있다. 우리는 Bean에 이름을 붙이지 않으므로, 타입을
 기반으로 값이 세팅된다.</p>
 <p>생성자가 하나만 있으면 그 생성자가 불린다. 여러 생성자가 있으면 원하는
-생성자에 @Autowired를 붙여 주어야 한다.<sup class="footnote-reference"><a href="#constructor-one-or-autowired">2</a></sup></p>
-<div class="footnote-definition" id="constructor-one-or-autowired"><sup class="footnote-definition-label">2</sup>
+생성자에 @Autowired를 붙여 주어야 한다.<sup class="footnote-reference"><a href="#constructor-one-or-autowired">3</a></sup></p>
+<div class="footnote-definition" id="constructor-one-or-autowired"><sup class="footnote-definition-label">3</sup>
 <p><a href="https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-spring-beans-and-dependency-injection">https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-spring-beans-and-dependency-injection</a></p>
 </div>
-<h2><a class="header" href="#value" id="value">@Value</a></h2>
+<h3><a class="header" href="#value" id="value">@Value</a></h3>
 <p>TBD</p>
-<h2><a class="header" href="#configuration" id="configuration">@Configuration</a></h2>
-<p>TBD</p>
+<p><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-java-combining-xml-centric">https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-java-combining-xml-centric</a></p>
 <h2><a class="header" href="#annotation을-썼을-때-실제로-일어나는-일" id="annotation을-썼을-때-실제로-일어나는-일">Annotation을 썼을 때 실제로 일어나는 일</a></h2>
 <p>TBD</p>
 <h2><a class="header" href="#spring-boot-없이-쓴다면" id="spring-boot-없이-쓴다면">Spring Boot 없이 쓴다면</a></h2>
