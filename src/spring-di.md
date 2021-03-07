@@ -75,6 +75,18 @@ class 위에 `@Component`를 달면 해당 클래스는 다른 코드에서 주�
 클래스가 스프링 디펜던시 인젝션으로 사용되는 것 뿐만 아니라 더 많은
 의미 혹은 기능을 가지게 된다. 상황에 맞는 어노테이션을 사용하자.
 
+### @Configuration
+
+우리가 직접 정의하지 않은 class를 주입하고 싶을 때 `@Configuration`을
+사용한다. @Configuration을 사용하여 Bean을 정의하는 방법을 Java-based
+Configuration[^java-based-configuration]이라고 부른다.
+
+[^java-based-configuration]: <https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-java>
+
+Configuration용 클래스 위에 @Configuration 어노테이션을 붙이고, bean을
+제공할 메쏘드들 위에 @Bean을 붙인다. 그러면 @Bean이 붙은 메쏘드의 리턴
+값이 bean에 등록된다.
+
 ## Bean 주입받기
 
 ### 필드에 @Autowired를 달기
@@ -94,13 +106,11 @@ IoC Container에 의해서 생성되는 객체가 @Autowired 어노테이션을 
 
 [^constructor-one-or-autowired]: <https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-spring-beans-and-dependency-injection>
 
-## @Value
+### @Value
 
 TBD
 
-## @Configuration
-
-TBD
+<https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-java-combining-xml-centric>
 
 ## Annotation을 썼을 때 실제로 일어나는 일
 
