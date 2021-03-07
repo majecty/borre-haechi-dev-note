@@ -1,6 +1,9 @@
 [book]
 authors = ["ParkJuhyeong"]
-language = "en"
+language = "ko"
 multilingual = false
 src = "src"
 title = "Borre 개발노트"
+
+[build]
+build-dir = "docs"
