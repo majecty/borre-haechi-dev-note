@@ -7,3 +7,8 @@ title = "Borre 개발노트"
 
 [build]
 build-dir = "docs"
+
+[output.html]
+cname = "borre-haechi-devnote.juhyung.dev"
+theme = "src/theme"
+default-theme = "light"
