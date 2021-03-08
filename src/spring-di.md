@@ -106,11 +106,13 @@ IoC Container에 의해서 생성되는 객체가 @Autowired 어노테이션을 
 
 [^constructor-one-or-autowired]: <https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-spring-beans-and-dependency-injection>
 
-### @Value
+### @Value를 써서 설정파일로부터 빈을 주입받기
 
-TBD
+@Value를 쓰면 설정파일로부터 Bean을 주입받을 수 있다. Constructor의
+인자 앞에 붙이거나, 클래스의 필드에 붙일 수 있다. 우리는
+application-xxx.yml 파일로부터 설정값을 주입받는다.
 
-<https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-java-combining-xml-centric>
+<https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-value-annotations>
 
 ## Annotation을 썼을 때 실제로 일어나는 일
 
