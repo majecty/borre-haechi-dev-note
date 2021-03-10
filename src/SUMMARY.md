@@ -7,6 +7,8 @@
 - [도구]()
   - [인텔리제이]()
   - [Gradle]()
+- [자바]()
+  - [recursive generic](./recursive-generic.md)
 - [라이브러리]()
   - [자바 라이브러리]()
     - [Spring]()
