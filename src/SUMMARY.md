@@ -4,6 +4,7 @@
 
 - [방법론]()
   - [(TBD) DDD](./DDD.md)
+    - [Aggregate](./ddd-aggregate.md)
 - [도구]()
   - [인텔리제이]()
   - [Gradle]()
