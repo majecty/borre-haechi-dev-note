@@ -33,7 +33,7 @@
   - [bitcoinj]()
     - [(TBD) bitcoinj HD wallet](./bitcoinj-hdwallet.md)
 - [블록체인]()
-  - [(TBD)HD wallet](./hd-wallet.md)
+  - [HD wallet](./hd-wallet.md)
   - [Klaytn]()
     - [(TBD) klaytn fee 계산](./klaytn-fee.md)
   - [256비트 디비에 저장하기]()
