@@ -21,7 +21,7 @@
     - [Spring]()
       - [Spring DI](./spring-di.md)
     - [JPA]()
-      - [JPA Transaction안에서 IO 처리](./jpa-transaction-io-call.md)
+      - [(TBD) JPA Transaction안에서 IO 처리](./jpa-transaction-io-call.md)
     - [Swing]()
     - [Spring Boot]()
       - [Spring Boot 에러 처리]()
