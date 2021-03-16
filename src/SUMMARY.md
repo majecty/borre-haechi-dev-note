@@ -24,6 +24,8 @@
       - [(TBD) JPA Transaction안에서 IO 처리](./jpa-transaction-io-call.md)
     - [Swing]()
     - [Spring Boot]()
+      - [(안씀)Spring boot actuator](./spring-boot-actuator.md)
+      - [Spring Boot Web Filter를 사용해서 request log 남기기](./spring-boot-web-filter-request-log.md)
       - [Spring Boot 에러 처리]()
       - [Spring Data JPA]()
         - [(TBD) Spring Data JPA Transaction중 IO](./spring-data-jpa-io-in-transaction.md)
