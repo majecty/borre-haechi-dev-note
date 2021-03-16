@@ -30,6 +30,7 @@
       - [Spring Data JPA]()
         - [(TBD) Spring Data JPA Transaction중 IO](./spring-data-jpa-io-in-transaction.md)
     - [(TBD)JUnit](./junit.md)
+    - [(TBD)Jackson](./jackson.md)
   - [(TBD) Caver](./caver.md)
   - [Web3j]()
   - [bitcoinj]()
