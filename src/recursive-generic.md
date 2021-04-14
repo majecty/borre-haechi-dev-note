@@ -88,8 +88,10 @@ pattern](https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern)이�
 [CRTP](https://blog.arkanosoft.com/index.php/crtp-c/)라고 부른다.
 
 Rust는 `Self` 타입을 트레잇에서 사용할 수 있다. 다음 코드는 Rust에서
-비교를 정의하는 `PartialEq`이다. `Rhs`의 기본 값으로 `Self`를
-사용한다. Rust는 상속의 개념도 없기 때문에 상황이 더 간단하다.
+비교를 정의하는
+[`PartialEq`](https://doc.rust-lang.org/std/cmp/trait.PartialEq.html)이다.
+`Rhs`의 기본 값으로 `Self`를 사용한다. Rust는 상속의 개념도 없기
+때문에 상황이 더 간단하다.
 
 ```rust
 pub trait PartialEq<Rhs: ?Sized = Self> {
