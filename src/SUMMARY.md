@@ -3,8 +3,8 @@
 [이 문서는?](./tutorial.md)
 
 - [방법론]()
-  - [(TBD) DDD](./DDD.md)
-    - [(TBD) Aggregate](./ddd-aggregate.md)
+  - [DDD](./DDD.md)
+    - [Aggregate](./ddd-aggregate.md)
 - [도구]()
   - [인텔리제이]()
   - [Gradle]()
