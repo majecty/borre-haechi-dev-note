@@ -17,6 +17,7 @@ Precommit hook을 사용하면 커밋하기 전에 테스트를 실행해서, �
 때문에 gradle을 사용해서 테스트를 실행하자.
 
 프로젝트 루트에 있는 gradlw에 test 인자를 주고 실행하자.
+
 ```
 ../gradlew test
 ```
