@@ -39,9 +39,14 @@ private 변수에만 자바독을 작성하고 getter와 setter에는 자바독�
 않는다. 자바독을 웹페이지로 렌더하거나, IDE에서 문서를 보여줄 때
 보이지 않게 된다.
 
-Klaytn의 Caver-java도 해당 문제를 가지고 있다. 관련된 [이슈](https://github.com/klaytn/caver-java/issues/208)가 등록되어 있다.
+Klaytn의 Caver-java도 해당 문제를 가지고 있다. 관련된
+[이슈](https://github.com/klaytn/caver-java/issues/208)가 등록되어
+있다.
 
 lombok의 @Getter와 @Setter 어트리뷰트를 사용해서 getter와 setter를
 생성한 경우 private 변수에 적은 자바독을 getter와 setter에 복사해준다.[^javadoc-getter-setter-lombok]
 
-[^javadoc-getter-setter-lombok]: 이 [링크](https://projectlombok.org/features/GetterSetter)를 참고하자. 완전히 복사는 아니고 좀 더 복잡한 설정이 가능하다.
+[^javadoc-getter-setter-lombok]:
+    이
+    [링크](https://projectlombok.org/features/GetterSetter)를
+    참고하자. 완전히 복사는 아니고 좀 더 복잡한 설정이 가능하다.
