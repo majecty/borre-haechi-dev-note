@@ -14,7 +14,7 @@
 - [자바]()
   - [Generic Recursive type bound](./recursive-generic.md)
   - [Bounded Wildcards](./bounded-wildcards.md)
-  - [(TBD) Raw Type](./raw-type.md)
+  - [Raw Type](./raw-type.md)
   - [(TBD) Null](./null.md)
   - [Javadoc](./javadoc.md)
 - [라이브러리]()
