@@ -10,6 +10,7 @@
   - [Gradle]()
   - [Git]()
     - [Precommit hook](./precommit-hook.md)
+    - [(TBD) Git subrepo](./git-subrepo.md)
 - [자바]()
   - [Generic Recursive type bound](./recursive-generic.md)
   - [(TBD) Bounded Wildcards](./bounded-wildcards.md)
